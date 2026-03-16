@@ -1,0 +1,22 @@
+# Credentials — never commit
+.env
+wallet_*/
+*.wallet
+*.p12
+*.sso
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+build/
+
+# uv
+uv.lock
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store
